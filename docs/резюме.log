@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  12 JAN 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.5.7)  12 JAN 2023 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,8 +691,12 @@ Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-)
-No file резюме.aux.
+) (резюме.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
+2.
+ (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)<<t2a.cmap>>)
 \openout1 = `резюме.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -710,17 +714,11 @@ LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
-3.
-(C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-<<t2a.cmap>>
 LaTeX Info: Redefining \th on input line 23.
 Package hyperref Info: Link coloring OFF on input line 23.
 
@@ -738,6 +736,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
+
+(резюме.out) (резюме.out)
 \@outlinefile=\write3
 \openout3 = `резюме.out'.
 
@@ -943,8 +943,8 @@ Overfull \hbox (9.53664pt too wide) in paragraph at lines 144--144
  []
 
 
-Overfull \hbox (0.6888pt too wide) in paragraph at lines 144--144
-\T2A/cmr/m/n/10 Algorithms school (2019) 
+Overfull \hbox (10.58221pt too wide) in paragraph at lines 144--144
+[]\T2A/cmr/bx/n/10 Tinkoff \T2A/cmr/m/n/10 Generation[] (2019) 
  []
 
 
@@ -974,20 +974,14 @@ Overfull \vbox (129.18027pt too high) has occurred while \output is active []
 
 [2{C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (резюме.aux)
-
-Package rerunfilecheck Warning: File `резюме.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `резюме.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `резюме.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12970 strings out of 478582
- 206915 string characters out of 2844345
+ 12980 strings out of 478582
+ 207150 string characters out of 2844345
  829359 words of memory out of 3000000
- 30946 multiletter control sequences out of 15000+600000
+ 30950 multiletter control sequences out of 15000+600000
  474104 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,5n,77p,307b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -998,9 +992,9 @@ labx1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
 /dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
 -t2a/dpi600\labx1440.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/l
 h/lh-t2a/dpi600\labx2488.pk>
-Output written on резюме.pdf (2 pages, 91949 bytes).
+Output written on резюме.pdf (2 pages, 92166 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
+ 328 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
